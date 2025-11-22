@@ -41,10 +41,6 @@ try:
 except Exception as e:
     log(f"⚠️ Failed to load session: {e}")
     return
-    
-    except Exception as e:
-        log(f"⚠️ Login failed: {e}")
-        return
 
     log("🤖 Bot started — Sending welcome messages 24x7...")
     message_count = 0
